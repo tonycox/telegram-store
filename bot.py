@@ -10,7 +10,7 @@ bot = telebot.TeleBot(config.token)
 
 @bot.message_handler(commands=["anekdot"])
 def get_top10_anekdots(message):
-	responce = vk.wall.get(domain='baneks')
+	responce = vk.wall.get(domain='baneks', count=100)
 	aneks = handleVkResponce(responce)
 	top10 = list(map(lambda anek: anek['text'], findTop(10, aneks)))
 	send_anek(message.chat.id, top10)
