@@ -1,2 +1,4 @@
 config.py
-/__*
+dataset2014
+.ipynb_checkpoints
+.idea
