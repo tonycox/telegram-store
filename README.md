@@ -1,4 +1,9 @@
-Download and install `deepdist` first. Then install all requirements.
+Download  `deepdist` first from `https://deepdist.com`. 
+Then install all requirements.
+And install `deepdist`
+```bash
+pip3 install -e ./deepdist
+```
 
 ### historical and cultural research
 https://birdinflight.com/ru/novosti/20160616-getty-research-digitized-100-books.html

@@ -5,5 +5,4 @@ flask
 flasgger
 pyspark
 spark-sklearn
-deepdist
 gensim
